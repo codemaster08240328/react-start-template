@@ -1,0 +1,25 @@
+@import 'loader';
+
+html,
+body {
+  background-color: $okc-bg_color;
+}
+
+body,
+table,
+input,
+textarea,
+select {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+  color: $okc-text_color;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  font-family: $base-font-family;
+}

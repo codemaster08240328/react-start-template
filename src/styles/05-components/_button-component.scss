@@ -1,0 +1,45 @@
+.c-button {
+  &__wrapper {
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20.09px;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    
+    &:disabled {
+      opacity: 0.8;
+      pointer-events: none;
+    }
+
+    &--primary {
+      height: 60px;
+      color: $okc-white;
+      background-color: $okc-link_color;
+      border: none;
+      
+      &:hover {
+        background-color: $okc-primary_color;
+      }
+    }
+    
+    &--outlined {
+      height: 56px;
+      color: $okc-link_color;
+      background-color: $okc-white;
+      border: solid 2px $okc-link_color;
+      
+      &:hover {
+        color: $okc-primary_color;
+        border-color: $okc-primary_color;
+      }
+    }
+  }
+
+  &-icon__wrapper {
+    margin-right: 15px;
+  }
+}

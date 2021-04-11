@@ -1,0 +1,44 @@
+.c-notification {
+  &__wrapper {
+    padding: 26px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0 0 0 11px;
+
+    &-success {
+      background-color: $okc-green-1;
+      border-color: $okc-green;
+    }
+
+    &-error {
+      background-color: $okc-red-1;
+      border-color: $okc-red;
+    }
+    
+    &-warning {
+      background-color: $okc-yellow-1;
+      border-color: $okc-yellow;
+    }
+  }
+
+  &_title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.03px;
+    display: flex;
+    align-items: center;
+
+    &__span {
+      margin-left: 23px;
+    }
+  }
+
+  &_description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.03px;
+    margin-top: 4px;
+    padding-left: 43px;
+  }
+  
+}

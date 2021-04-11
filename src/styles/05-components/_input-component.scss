@@ -1,0 +1,51 @@
+.c-input {
+  &_wrapper {
+    min-height: 38px;
+    background-color: $okc-white;
+    border: 1px solid $okc-border_color;
+    border-radius: 5px;
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-error {
+      border-color: $okc-red;
+    }
+  }
+
+  &-action__wrapper {
+    flex: 1;
+  }
+
+  &-status__wrapper {
+    padding-left: 14px;
+  }
+
+  &_label {
+    color: $okc-link_color;
+    font-size: 12px;
+    line-height: 17px;
+    display: block;
+  }
+
+  &_input-box {
+    border: none;
+    outline: none;
+    width: 100%;
+    line-height: 22px;
+    font-size: 16px;
+
+    &::placeholder {
+      color: $okc-grey-4;
+      font-weight: 400;
+    }
+  }
+
+  &_error {
+    color: $okc-red;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16.03px;
+  }
+}

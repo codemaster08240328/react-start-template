@@ -1,0 +1,28 @@
+.o-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  &--left {
+    margin-right: 1em;
+  }
+  &--right {
+    margin-left: 1em;
+  }
+
+  &--white {
+    fill: #fff;
+  }
+}
+
+.o-text-with-icon {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
